@@ -111,3 +111,11 @@ function wpblank_compress_card_webp( $metadata, $attachment_id ) {
     return $metadata;
 }
 add_filter( 'wp_generate_attachment_metadata', 'wpblank_compress_card_webp', 20, 2 );
+
+
+/** Defer menu controls without blocking HTML parsing (WordPress 6.0+). */
+function wpblank_defer_control_scripts( $tag, $handle ) {
+    if ( 'wpblank-navigation' !== $handle ) { return $tag; }
+    return preg_replace( '/<script\b(?=[^>]*\bsrc=)(?![^>]*\bdefer\b)/i', '<script defer', $tag, 1 );
+}
+add_filter( 'script_loader_tag', 'wpblank_defer_control_scripts', 10, 2 );
