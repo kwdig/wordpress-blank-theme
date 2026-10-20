@@ -3,8 +3,8 @@
     <a class="thumbnail-link" href="<?php the_permalink(); ?>" aria-label="<?php echo esc_attr( get_the_title() ?: __( '無題の記事', 'wordpress-blank' ) ); ?>">
         <?php global $wp_query;
         $first_image = 0 === (int) $wp_query->current_post;
-        the_post_thumbnail( 'medium_large', array(
-            'sizes' => '(max-width: 480px) calc(100vw - 32px), (max-width: 768px) 120px, (max-width: 960px) 140px, 180px',
+        the_post_thumbnail( 'wpblank-card-large', array(
+            'sizes' => '(max-width: 480px) calc(100vw - 40px), (max-width: 768px) 120px, (max-width: 960px) 140px, 180px',
             'loading' => $first_image ? 'eager' : 'lazy',
             'fetchpriority' => $first_image ? 'high' : 'auto',
             'decoding' => 'async',
