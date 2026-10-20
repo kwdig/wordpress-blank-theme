@@ -1,8 +1,8 @@
 # WordPress Blank
 
-日本語向けの軽量クラシックWordPressテーマ。**Version 1.2.3**。
+日本語向けの軽量クラシックWordPressテーマ。**Version 1.2.4**。
 
-[紹介](https://kwdig.com/wordpress-blank-theme) · [デモ](https://kwdig.com/wordpress-blank-theme/demo/) · [インストール用ZIP](https://github.com/kwdig/wordpress-blank-theme/releases/download/v1.2.3/wordpress-blank.zip)
+[紹介](https://kwdig.com/wordpress-blank-theme) · [デモ](https://kwdig.com/wordpress-blank-theme/demo/) · [インストール用ZIP](https://github.com/kwdig/wordpress-blank-theme/releases/download/v1.2.4/wordpress-blank.zip)
 
 ![WordPress Blank](screenshot.png)
 
@@ -30,6 +30,8 @@ WordPress 6.0以上 / PHP 7.4以上。クラシックテーマ。投稿・固定
 
 ## 更新履歴
 
+- **1.2.4**: 記事カード用180・360・672px画像とWebP圧縮、テーマアセットのキャッシュ設定を追加。
+
 - **1.2.3**: 記事一覧・記事詳細のカテゴリーとタグをタイトル直下へ配置。サイドバー検索を横一列に修正。
 - **1.2.2**: サイドバーに固定ページのリンクを自動表示。
 - **1.2.1**: 記事詳細で画像が二重に表示される問題を修正。
@@ -39,3 +41,5 @@ WordPress 6.0以上 / PHP 7.4以上。クラシックテーマ。投稿・固定
 ## ライセンス
 
 GPL-2.0-or-later。元テーマの制作クレジットはKWMineです。テーマ内のクレジットとライセンス表記を維持しています。
+
+既存画像に新しいサイズを適用する場合は、サムネイルを再生成してください。画像ファイル自体のキャッシュ期間や検索エンジンへの公開は、サイト・サーバー側の設定です。

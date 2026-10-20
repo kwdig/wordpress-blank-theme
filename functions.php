@@ -75,3 +75,12 @@ function wpblank_image_output_format( $formats ) {
     return $formats;
 }
 add_filter( 'image_editor_output_format', 'wpblank_image_output_format' );
+
+/** Responsive card images and economical WebP encoding. */
+function wpblank_card_image_sizes() {
+    add_image_size('wpblank-card-small',180,0,false);
+    add_image_size('wpblank-card-medium',360,0,false);
+    add_image_size('wpblank-card-large',672,0,false);
+}
+add_action('after_setup_theme','wpblank_card_image_sizes');
+add_filter('wp_editor_set_quality',static function($quality,$mime,$size=[]){return $mime==='image/webp' && !empty($size['width']) && $size['width']<=672?52:$quality;},10,3);
