@@ -2,7 +2,7 @@
 
 日本語向けの軽量クラシックWordPressテーマ。**Version 1.2.6**。
 
-[紹介](https://kwdig.com/wordpress-blank-theme) · [デモ](https://kwdig.com/wordpress-blank-theme/demo/) · [インストール用ZIP](https://github.com/kwdig/wordpress-blank-theme/releases/download/v1.2.4/wordpress-blank.zip)
+[紹介](https://kwdig.com/wordpress-blank-theme) · [デモ](https://kwdig.com/wordpress-blank-theme/demo/) · [インストール用ZIP](https://github.com/kwdig/wordpress-blank-theme/releases/download/v1.2.6/wordpress-blank.zip)
 
 ![WordPress Blank](screenshot.png)
 
