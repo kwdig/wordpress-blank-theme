@@ -1,6 +1,6 @@
 # WordPress Blank
 
-日本語向けの軽量クラシックWordPressテーマ。**Version 1.2.4**。
+日本語向けの軽量クラシックWordPressテーマ。**Version 1.2.5**。
 
 [紹介](https://kwdig.com/wordpress-blank-theme) · [デモ](https://kwdig.com/wordpress-blank-theme/demo/) · [インストール用ZIP](https://github.com/kwdig/wordpress-blank-theme/releases/download/v1.2.4/wordpress-blank.zip)
 
@@ -29,6 +29,8 @@
 WordPress 6.0以上 / PHP 7.4以上。クラシックテーマ。投稿・固定ページのブロックエディターに対応します。
 
 ## 更新履歴
+
+- **1.2.5**: 容量が大きいカード用WebP画像のみ圧縮を追加調整。元画像を維持し、既存画像はサムネイル再生成で適用。
 
 - **1.2.4**: 記事カード用180・360・672px画像とWebP圧縮、テーマアセットのキャッシュ設定を追加。
 
